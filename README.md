@@ -1,5 +1,6 @@
 # gcloud-workload-identity
 
+## https://cloud.google.com/blog/products/identity-security/enabling-keyless-authentication-from-github-actions
 
 ### Allow authentications from the Workload Identity Provider to impersonate the desired Service Account
 gcloud iam service-accounts add-iam-policy-binding "my-service-account@${PROJECT_ID}.iam.gserviceaccount.com" \
