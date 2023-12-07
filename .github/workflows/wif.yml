@@ -18,6 +18,8 @@ jobs:
       uses: 'google-github-actions/auth@v1'
       with:
         token_format: 'access_token'
+        create_credentials_file: true
+        activate_credentials_file: true
         workload_identity_provider: 'projects/484213892641/locations/global/workloadIdentityPools/github-pool/providers/github-idp'
         service_account: 'github-action@eternal-insight-403210.iam.gserviceaccount.com'
 
